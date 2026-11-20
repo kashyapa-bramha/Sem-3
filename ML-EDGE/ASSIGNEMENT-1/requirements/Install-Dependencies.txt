@@ -1,0 +1,24 @@
+DEPENDENCY INSTALLATION - LAB EXPERIMENT 1 (FOUNDATIONS OF EDGE AI)
+
+1. Open the project folder in VS Code.
+
+2. Activate the project's virtual environment.
+   Windows PowerShell:
+       .\.venv\Scripts\Activate.ps1
+
+   Windows Command Prompt (cmd):
+       .\.venv\Scripts\activate.bat
+
+3. Install all dependencies listed in requirements.txt:
+       python -m pip install -r requirements.txt
+
+   The requirements.txt file explicitly uses https://pypi.org/simple for this
+   installation, so it does not use the configured Bosch Artifactory index.
+
+4. Verify that the packages are installed:
+       python -c "import tensorflow as tf; import numpy; import matplotlib; import fastapi; import requests; import uvicorn; print('All dependencies installed successfully'); print('TensorFlow:', tf.__version__)"
+
+Notes:
+- Run the commands from the project root directory, where requirements.txt is located.
+- Keep the virtual environment activated when working on the assignment.
+- Do not commit credentials or credential-bearing package-index URLs.

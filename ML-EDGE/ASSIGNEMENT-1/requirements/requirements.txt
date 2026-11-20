@@ -1,0 +1,12 @@
+# Lab Experiment 1 - Foundations of Edge AI
+# Packages required for the assignment
+# Use public PyPI for this installation (overrides the configured Bosch index for this run).
+--index-url https://pypi.org/simple
+
+tensorflow
+numpy
+matplotlib
+fastapi
+uvicorn
+requests
+psutil

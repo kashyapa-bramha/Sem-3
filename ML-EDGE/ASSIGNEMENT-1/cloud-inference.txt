@@ -1,0 +1,12 @@
+CLOUD INFERENCE RESULTS
+================================================
+Timed requests  : 100 (after 1 warm-up)
+Prediction      : 7
+Confidence      : 0.9999
+Server mean     : 0.0701 ms
+Server p95      : 0.1052 ms
+RTT mean        : 17.0728 ms
+RTT p95         : 30.1196 ms
+Mean overhead   : 17.0027 ms (RTT minus server compute)
+JSON payload    : 5,687 bytes/request
+Upload at 30 FPS: 166.61 KiB/s (request bodies only)
